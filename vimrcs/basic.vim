@@ -212,7 +212,7 @@ map <space> /
 map <C-space> ?
 
 " Disable highlight when <leader><cr> is pressed
-map <silent> <leader><cr> :noh<cr>
+map <silent> <F2> :noh<cr>
 
 " Smart way to move between windows
 map <C-j> <C-W>j
@@ -331,6 +331,8 @@ map <leader>x :e ~/buffer.md<cr>
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
 
+" show line number by default
+set nu
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
